@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    
+    "boomidemomcp": {
+      "command": "node js path",
+      "args": [
+        "index.js"
+      ],
+      "cwd": CURRENT PATH for index.js",
+      "name": "Demo MCP Server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  }
+}

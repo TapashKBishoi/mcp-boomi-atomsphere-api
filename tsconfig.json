@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "nodenext",         // Use NodeNext for compatibility
+      "moduleResolution": "nodenext",
+      "target": "es2022",           // Ensure compatibility with modern JavaScript
+      "outDir": "dist",             // Output folder for compiled files
+      "strict": true,               // Enable strict type checking
+      "esModuleInterop": true,      // Allow CommonJS compatibility
+      "skipLibCheck": true          // Skip type checks for library files
+    },
+    "include": ["src"],             // Include source files
+    "exclude": ["node_modules"]     // Exclude unnecessary files
+  }
